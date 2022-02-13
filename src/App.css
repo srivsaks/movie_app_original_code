@@ -1,38 +1,106 @@
-.App {
+body{
+  background-color: rgba(154, 12, 162, 0.267);
+  font-size: 100px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.start_button{
+  padding: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.board{
+  /* border: 5px #141414 solid; */
+  height:auto;
+  font-size: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.board-0{
+  /* border: 5px #141414 solid; */
+  width:900px;
+  padding:150px 0px 0px 0px;
+  margin:0px 500px;
+  display:flex;
 }
-
-.App-link {
-  color: #61dafb;
+.board-3{
+  /* border: 5px #141414 solid; */
+  width:900px;
+  margin:0px 500px;
+  display:flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.board-6{
+  /* border: 5px #141414 solid; */
+  width:900px;
+  margin:0px 500px;
+  display:flex;
+}
+.squares-0{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
+}
+.squares-1{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
+}
+.squares-2{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
+}
+.squares-3{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
+}
+.squares-4{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
+}
+.squares-5{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
+}
+.squares-6{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
+}
+.squares-7{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
+}
+.squares-8{
+  border: 5px #141414 solid;
+  background-color: palevioletred;
+  width:400px;
+  height:100px;
+  text-align: center;
+  color: #141414;
 }
